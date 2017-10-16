@@ -6,7 +6,12 @@ import scrapy
 from scrapy import Selector
 
 class CurrencySpider(scrapy.Spider):
+    """
+    Scrape the ECB website for current currency prices.
 
+    Input: ECB website URL.
+    Ouput: Symbol & Price information in JSON format.
+    """
     name = "forex"
     start_urls = ['http://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html']
 
