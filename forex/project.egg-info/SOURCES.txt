@@ -1,0 +1,13 @@
+setup.py
+forex/__init__.py
+forex/items.py
+forex/middlewares.py
+forex/pipelines.py
+forex/settings.py
+forex/spiders/__init__.py
+forex/spiders/currency_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
