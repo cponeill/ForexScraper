@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 
+# This is the easiest way to scrape for current currency prices.
+
 import json
 import scrapy
 from scrapy import Selector
